@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# 대한민국 시도별 자연재해 피해량 시각화 웹 사이트
+React.js + Node.js를 활용한 웹사이트
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 📒목차
+- [프로젝트 소개](#프로젝트-소개)
+- [개발 기간](#개발-기간)
+- [사용 기술](#사용-기술)
+- [구현 기능](#구현-기능)
 
-In the project directory, you can run:
+## 🖥프로젝트 소개
+[국민재난안전포털 사이트](https://www.safekorea.go.kr/idsiSFK/neo/main/main.html)에서 제공하는 자연재해 데이터를 크롤링하여 시각화하는 웹 사이트입니다.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 지도 형식
+![지도](https://github.com/ehdrjs4502/sw-project/assets/33916924/a2da31ad-d987-4ed5-b987-58f419de6501)
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 차트 형식
+![차트](https://github.com/ehdrjs4502/sw-project/assets/33916924/a855c03d-e0d8-4c37-bd7e-8d5b66cad09a)
+<br>
 
-### `npm test`
+## ⏱개발 기간
+2022. 09 ~ 2022. 12 (4개월)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 🛠사용 기술
+![React.js](https://img.shields.io/badge/react-%23323330.svg?style=for-the-badge&logo=react&logoColor=#61DAFB)
+![node.js](https://img.shields.io/badge/node.js-%23323330.svg?style=for-the-badge&logo=nodedotjs&logoColor=#339933)
+![MySQL](https://img.shields.io/badge/mysql-%23323330.svg?style=for-the-badge&logo=mysql&logoColor=#4479A1)
+![python](https://img.shields.io/badge/python-%23323330.svg?style=for-the-badge&logo=python&logoColor=#3776AB)
+![selenium](https://img.shields.io/badge/selenium-%23323330.svg?style=for-the-badge&logo=python&logoColor=#43B02A)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📕구현 기능
+- Apex.js 라이브러리를 통한 자연재해 피해량 차트 구현
+- 행정지도 SVG를 활용해 시도별 자연재해 피해량 시각화 구현
+- 행정구역에 마우스 오버시 해당 지역 피해량 표시
+- 데이터베이스 설계 및 백엔드 서버 구현
+- Python Selenium을 활용하여 자연재해 데이터 크롤링 및 데이터베이스에 저장 기능 구현
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
