@@ -13,11 +13,12 @@ React.js + Node.js를 활용한 웹사이트
 
 
 ### 지도 형식
-![지도](https://github.com/ehdrjs4502/sw-project/assets/33916924/a2da31ad-d987-4ed5-b987-58f419de6501)
+![지도](https://github.com/ehdrjs4502/2-2-project/assets/33916924/4b603be3-ae57-4f94-ab3e-544e34c9ad02)
 <br>
 
 ### 차트 형식
-![차트](https://github.com/ehdrjs4502/sw-project/assets/33916924/a855c03d-e0d8-4c37-bd7e-8d5b66cad09a)
+![차트](https://github.com/ehdrjs4502/2-2-project/assets/33916924/91629bd4-28db-4345-b872-4328b1389fbf)
+
 <br>
 
 ## ⏱개발 기간
